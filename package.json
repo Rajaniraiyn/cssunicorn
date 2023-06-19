@@ -22,7 +22,7 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "terser": "^5.15.0",
+    "terser": "^5.18.0",
     "typescript": "^5.0.2",
     "vite": "^4.1.1",
     "vite-plugin-dts": "^2.0.2"
