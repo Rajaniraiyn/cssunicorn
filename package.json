@@ -24,7 +24,7 @@
   "devDependencies": {
     "terser": "^5.18.2",
     "typescript": "^5.1.6",
-    "vite": "^4.1.1",
+    "vite": "^4.4.2",
     "vite-plugin-dts": "^3.2.0"
   }
 }
