@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^4.4.8
     version: 4.4.8(terser@5.19.2)
   vite-plugin-dts:
-    specifier: ^3.4.0
-    version: 3.4.0(typescript@5.1.6)(vite@4.4.8)
+    specifier: ^3.5.1
+    version: 3.5.1(typescript@5.1.6)(vite@4.4.8)
 
 packages:
 
@@ -712,14 +712,6 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /semver@7.5.3:
-    resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
@@ -808,8 +800,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts@3.4.0(typescript@5.1.6)(vite@4.4.8):
-    resolution: {integrity: sha512-B5UbhiF83hPlJpdri3k2FlseO2qIQfY95XJib7z1s8NTQKgPK+KgeuOQf8FR1hnE/pSU+RA3ra2T18HvymPDyA==}
+  /vite-plugin-dts@3.5.1(typescript@5.1.6)(vite@4.4.8):
+    resolution: {integrity: sha512-wrrIvRTWq9xL0HKOUvJyJ+wivEoLsZ2GU2I2000v5tAAUtu9gE+5OUmUJ9yNkmyYz3tSPedkkiXHeb5jnnSXhg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -883,7 +875,7 @@ packages:
     dependencies:
       '@vue/language-core': 1.8.8(typescript@5.1.6)
       '@vue/typescript': 1.8.8(typescript@5.1.6)
-      semver: 7.5.3
+      semver: 7.5.4
       typescript: 5.1.6
     dev: true
 
