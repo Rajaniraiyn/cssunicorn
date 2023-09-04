@@ -6,14 +6,14 @@ settings:
 
 devDependencies:
   terser:
-    specifier: ^5.19.2
-    version: 5.19.2
+    specifier: ^5.19.3
+    version: 5.19.3
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
   vite:
     specifier: ^4.4.9
-    version: 4.4.9(terser@5.19.2)
+    version: 4.4.9(terser@5.19.3)
   vite-plugin-dts:
     specifier: ^3.5.2
     version: 3.5.2(typescript@5.1.6)(vite@4.4.9)
@@ -755,8 +755,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /terser@5.19.2:
-    resolution: {integrity: sha512-qC5+dmecKJA4cpYxRa5aVkKehYsQKc+AHeKl0Oe62aYjBL8ZA33tTljktDHJSaxxMnbI5ZYw+o/S2DxxLu8OfA==}
+  /terser@5.19.3:
+    resolution: {integrity: sha512-pQzJ9UJzM0IgmT4FAtYI6+VqFf0lj/to58AV0Xfgg0Up37RyPG7Al+1cepC6/BVuAxR9oNb41/DL4DEoHJvTdg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -815,7 +815,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.1.6
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(terser@5.19.3)
       vue-tsc: 1.8.8(typescript@5.1.6)
     transitivePeerDependencies:
       - '@types/node'
@@ -823,7 +823,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite@4.4.9(terser@5.19.2):
+  /vite@4.4.9(terser@5.19.3):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -854,7 +854,7 @@ packages:
       esbuild: 0.18.11
       postcss: 8.4.27
       rollup: 3.28.0
-      terser: 5.19.2
+      terser: 5.19.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
