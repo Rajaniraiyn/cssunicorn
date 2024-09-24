@@ -12,14 +12,14 @@ importers:
         specifier: ^5.30.2
         version: 5.30.2
       typescript:
-        specifier: ^5.4.3
-        version: 5.4.3
+        specifier: ^5.6.2
+        version: 5.6.2
       vite:
         specifier: ^5.3.3
         version: 5.3.3(terser@5.30.2)
       vite-plugin-dts:
         specifier: ^4.2.1
-        version: 4.2.1(rollup@4.13.2)(typescript@5.4.3)(vite@5.3.3(terser@5.30.2))
+        version: 4.2.1(rollup@4.13.2)(typescript@5.6.2)(vite@5.3.3(terser@5.30.2))
 
 packages:
 
@@ -630,8 +630,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -950,7 +950,7 @@ snapshots:
       de-indent: 1.0.2
       he: 1.2.0
 
-  '@vue/language-core@2.1.6(typescript@5.4.3)':
+  '@vue/language-core@2.1.6(typescript@5.6.2)':
     dependencies:
       '@volar/language-core': 2.4.4
       '@vue/compiler-dom': 3.5.3
@@ -961,7 +961,7 @@ snapshots:
       muggle-string: 0.4.1
       path-browserify: 1.0.1
     optionalDependencies:
-      typescript: 5.4.3
+      typescript: 5.6.2
 
   '@vue/shared@3.5.3': {}
 
@@ -1234,7 +1234,7 @@ snapshots:
 
   typescript@5.4.2: {}
 
-  typescript@5.4.3: {}
+  typescript@5.6.2: {}
 
   ufo@1.5.4: {}
 
@@ -1244,18 +1244,18 @@ snapshots:
     dependencies:
       punycode: 2.1.1
 
-  vite-plugin-dts@4.2.1(rollup@4.13.2)(typescript@5.4.3)(vite@5.3.3(terser@5.30.2)):
+  vite-plugin-dts@4.2.1(rollup@4.13.2)(typescript@5.6.2)(vite@5.3.3(terser@5.30.2)):
     dependencies:
       '@microsoft/api-extractor': 7.47.7
       '@rollup/pluginutils': 5.1.0(rollup@4.13.2)
       '@volar/typescript': 2.4.4
-      '@vue/language-core': 2.1.6(typescript@5.4.3)
+      '@vue/language-core': 2.1.6(typescript@5.6.2)
       compare-versions: 6.1.1
       debug: 4.3.7
       kolorist: 1.8.0
       local-pkg: 0.5.0
       magic-string: 0.30.11
-      typescript: 5.4.3
+      typescript: 5.6.2
     optionalDependencies:
       vite: 5.3.3(terser@5.30.2)
     transitivePeerDependencies:
