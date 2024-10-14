@@ -18,8 +18,8 @@ importers:
         specifier: ^5.4.7
         version: 5.4.7(terser@5.33.0)
       vite-plugin-dts:
-        specifier: ^4.2.1
-        version: 4.2.1(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(terser@5.33.0))
+        specifier: ^4.2.4
+        version: 4.2.4(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(terser@5.33.0))
 
 packages:
 
@@ -451,9 +451,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  function-bind@1.1.1:
-    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
-
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
@@ -463,10 +460,6 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
-
-  has@1.0.3:
-    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
-    engines: {node: '>= 0.4.0'}
 
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
@@ -479,9 +472,6 @@ packages:
   import-lazy@4.0.0:
     resolution: {integrity: sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==}
     engines: {node: '>=8'}
-
-  is-core-module@2.10.0:
-    resolution: {integrity: sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==}
 
   is-core-module@2.15.1:
     resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
@@ -565,10 +555,6 @@ packages:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
     engines: {node: '>=0.10.0'}
 
-  resolve@1.22.1:
-    resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
-    hasBin: true
-
   resolve@1.22.8:
     resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
     hasBin: true
@@ -582,10 +568,6 @@ packages:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
-
-  source-map-js@1.2.0:
-    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
-    engines: {node: '>=0.10.0'}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -646,8 +628,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite-plugin-dts@4.2.1:
-    resolution: {integrity: sha512-/QlYvgUMiv8+ZTEerhNCYnYaZMM07cdlX6hQCR/w/g/nTh0tUXPoYwbT6SitizLJ9BybT1lnrcZgqheI6wromQ==}
+  vite-plugin-dts@4.2.4:
+    resolution: {integrity: sha512-REcYoxO90Pi8c0P1J7XAa/nVwNVGkX2eYkBEIfFSfcKE4g1W8sB0R23a7SU3aLEMfdOdb0SVHq3JlJ+Qb6gjgA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -819,7 +801,7 @@ snapshots:
       '@rushstack/ts-command-line': 4.22.6
       lodash: 4.17.21
       minimatch: 3.0.8
-      resolve: 1.22.1
+      resolve: 1.22.8
       semver: 7.5.4
       source-map: 0.6.1
       typescript: 5.4.2
@@ -899,12 +881,12 @@ snapshots:
       fs-extra: 7.0.1
       import-lazy: 4.0.0
       jju: 1.4.0
-      resolve: 1.22.1
+      resolve: 1.22.8
       semver: 7.5.4
 
   '@rushstack/rig-package@0.5.3':
     dependencies:
-      resolve: 1.22.1
+      resolve: 1.22.8
       strip-json-comments: 3.1.1
 
   '@rushstack/terminal@0.14.0':
@@ -943,7 +925,7 @@ snapshots:
       '@vue/shared': 3.5.3
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.2.0
+      source-map-js: 1.2.1
 
   '@vue/compiler-dom@3.5.3':
     dependencies:
@@ -1068,17 +1050,11 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  function-bind@1.1.1: {}
-
   function-bind@1.1.2: {}
 
   graceful-fs@4.2.10: {}
 
   has-flag@4.0.0: {}
-
-  has@1.0.3:
-    dependencies:
-      function-bind: 1.1.1
 
   hasown@2.0.2:
     dependencies:
@@ -1087,10 +1063,6 @@ snapshots:
   he@1.2.0: {}
 
   import-lazy@4.0.0: {}
-
-  is-core-module@2.10.0:
-    dependencies:
-      has: 1.0.3
 
   is-core-module@2.15.1:
     dependencies:
@@ -1168,12 +1140,6 @@ snapshots:
 
   require-from-string@2.0.2: {}
 
-  resolve@1.22.1:
-    dependencies:
-      is-core-module: 2.10.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-
   resolve@1.22.8:
     dependencies:
       is-core-module: 2.15.1
@@ -1205,8 +1171,6 @@ snapshots:
   semver@7.5.4:
     dependencies:
       lru-cache: 6.0.0
-
-  source-map-js@1.2.0: {}
 
   source-map-js@1.2.1: {}
 
@@ -1250,7 +1214,7 @@ snapshots:
     dependencies:
       punycode: 2.1.1
 
-  vite-plugin-dts@4.2.1(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(terser@5.33.0)):
+  vite-plugin-dts@4.2.4(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(terser@5.33.0)):
     dependencies:
       '@microsoft/api-extractor': 7.47.7
       '@rollup/pluginutils': 5.1.0(rollup@4.22.4)
